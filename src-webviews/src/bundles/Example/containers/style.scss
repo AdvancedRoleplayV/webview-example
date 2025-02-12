@@ -1,0 +1,21 @@
+.exemple-container {
+  height: 100vh;
+  background-color: rgb(210, 204, 204);
+  font-size: 22px;
+  padding: 10px;
+
+  .bootstrap {
+    margin-top: 120px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .images-container {
+    border-top: 1px solid black;
+    margin-top: 8px;
+    font-size: 14px;
+    padding: 8px 10px 10px 0;
+  }
+}

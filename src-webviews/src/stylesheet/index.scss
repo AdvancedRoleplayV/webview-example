@@ -1,0 +1,45 @@
+
+// Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import './custom_bootstrap/*';
+
+// Font awesome
+// @import '../../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@import '../node_modules/keyboard-css/dist/scss/main.scss';
+
+@import './awesome/css/all.css';
+
+// Customized Components
+.p-vertical-center {
+	padding-top: 20%;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.kbc-button {
+  width: 28px;
+  text-align: center;
+
+  &:hover {
+    cursor: default;
+  }
+}
+
+body {
+  margin: 0;
+	font-size: 12px;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+}
+
+
